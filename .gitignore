@@ -1,0 +1,15 @@
+bin/
+obj/
+cmake-build-debug/
+CMake/
+CMakeFiles/
+build/
+.cache/
+Makefile
+MinecraftClone
+MinecraftClone.*
+*.idea
+*.a
+CMakeCache.txt
+*.cmake
+compile_commands.json
