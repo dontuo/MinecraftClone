@@ -3,12 +3,12 @@
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 
-class Game
+class App
 {
 public:
 
-    Game();
-    ~Game();
+    App();
+    ~App();
     
     int Init();
 

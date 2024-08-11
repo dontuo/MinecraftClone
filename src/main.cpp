@@ -2,7 +2,7 @@
 
 int main()
 {
-    Game game;
+    App game;
     int result = game.Init();
     if (result != 0)
         return result;

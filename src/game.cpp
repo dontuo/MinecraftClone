@@ -6,9 +6,9 @@
 
 #include <learnopengl/camera.h>
 
-Game::Game(){}
+App::App(){}
 
-int Game::Init()
+int App::Init()
 {
     if(!glfwInit()) return -1;
     
@@ -32,7 +32,7 @@ int Game::Init()
     return 0;
 }
 
-int Game::Run()
+int App::Run()
 {
     Camera camera;
     while(!glfwWindowShouldClose(mWindow))
@@ -42,7 +42,7 @@ int Game::Run()
     return 0;
 }
 
-Game::~Game()
+App::~App()
 {
     glfwDestroyWindow(mWindow);
     glfwTerminate();
