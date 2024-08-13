@@ -6,6 +6,7 @@ make -j8
 if [ ! -f MinecraftClone ]; then
     echo "Compile failed"
 else
+    echo "Starting game: "
     ./MinecraftClone
 fi
 

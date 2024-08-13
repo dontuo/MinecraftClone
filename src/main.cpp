@@ -1,6 +1,4 @@
 #include "app.h"
-#include <iostream>
-#include <stdexcept>
 
 int main()
 {
