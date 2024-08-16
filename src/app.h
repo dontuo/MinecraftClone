@@ -6,7 +6,12 @@
 #include <stdexcept>
 
 #include <learnopengl/camera.h>
+#include <learnopengl/shader.h>
 #include "window.h"
+#include <vector>
+
+#include "vbo.h"
+#include "vao.h"
 
 class App
 {
