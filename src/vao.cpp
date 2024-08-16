@@ -10,6 +10,7 @@ void VAO::PushData(GLuint index, GLint size, GLenum type, GLboolean	normalized, 
 {
     Bind();
     glVertexAttribPointer(index,size, type, normalized, stride, pointer);
+    glEnableVertexAttribArray(index);
 }
 
 void VAO::Bind()
