@@ -10,6 +10,9 @@
 #include "window.h"
 #include <vector>
 
+#include <glm/glm.hpp>
+#include <glm/gtc/matrix_transform.hpp>
+
 #include "vbo.h"
 #include "vao.h"
 
