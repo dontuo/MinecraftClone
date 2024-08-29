@@ -1,4 +1,5 @@
 #include "window.h"
+#include "vbo.h"
 
 Window::Window(){}
 
@@ -23,7 +24,7 @@ void Window::Init(int width, int height, const char *name)
     
     glfwGetFramebufferSize(mWindow, &width, &height);
 
-    glEnable(GL_DEPTH_BUFFER_BIT);
+    glEnable(GL_DEPTH_TEST);
 
     glViewport(0,0,width,height);
 
